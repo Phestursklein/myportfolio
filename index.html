@@ -57,6 +57,7 @@
     <p class="mt-4 px-4 max-w-xl mx-auto text-gray-700">
       I am a passionate web developer with experience in creating dynamic and responsive web applications...
     </p>
+    <button onclick="downloadCV()">Download CV</button>
   </section>
 
   <!-- Projects Section -->
@@ -97,12 +98,12 @@
 
   <script src="script.js">
       function downloadCV() {
-    const confirmDownload = confirm("Do you want to download the file 'Your_CV.pdf'?");
+    const confirmDownload = confirm("Do you want to download the file 'CV ABAYOMI 2024.pdf'?");
 
     if (confirmDownload) {
       const link = document.createElement("a");
-      link.href = "path/to/Your_CV.pdf"; // Replace with the actual path to the CV file
-      link.download = "Your_CV.pdf"; // Replace with the desired file name
+      link.href = "./credentials/CV ABAYOMI 2024.pdf"; // Replace with the actual path to the CV file
+      link.download = "CV ABAYOMI 2024.pdf"; // Replace with the desired file name
       link.click();
     } else {
       alert("Download canceled.");
