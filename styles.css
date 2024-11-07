@@ -1,0 +1,8 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-gradient-to-r {
+    background: linear-gradient(to right, #4f46e5, #6b7280);
+}
+.
