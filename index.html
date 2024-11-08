@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,23 +17,24 @@
     <div class="container mx-auto flex justify-between items-center p-4">
       <div class="flex items-center space-x-4">
         <img class="w-10 h-14 rounded-xl" src="assets/images/Festus.jpg" alt="Profile logo" />
-        <span class="text-xl font-bold">Abayomi Festus</span>
+        <span class="text-xl font-bold">Abayomi Ogunbayo</span>
       </div>
       <div class="hidden md:flex space-x-6 font-serif">
         <a href="#home" class="text-white hover:text-red-400"><i class="fa-solid fa-house-laptop"></i> Home</a>
         <a href="#about" class="text-white hover:text-blue-500"><i class="fa-regular fa-address-card"></i> About</a>
         <a href="#projects" class="text-white hover:text-blue-500"><i class="fa-solid fa-list-check"></i> Projects</a>
-        <a href="#contact" class="text-white hover:text-blue-500"><i class="fa-sharp fa-solid fa-file-signature"></i> Contact</a>
+        <a href="#contact" class="text-white hover:text-blue-500"><i class="fa-sharp fa-solid fa-file-signature"></i>
+          Contact</a>
       </div>
       <button id="menu-button" class="md:hidden focus:outline-none">
         <svg id="menu-icon" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
-          </svg>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
         <!-- <i class="fas fa-bars text-2xl"></i> -->
       </button>
     </div>
-    <div id="mobile-menu" class="hidden flex-col md:hidden bg-gray-700 text-white p-4 space-x-4">
-      <a href="#home" class=" py-2 hover:bg-gray-600"><i class="fa-solid fa-house-laptop"></i> Home</a>
+    <div id="mobile-menu" class="hidden flex-col md:hidden bg-gray-700 text-white p-4 space-x-3">
+      <a href="#home" class=" py-2 hover:bg-gray-600"><i class="fa-duotone fa-solid fa-house-laptop"></i> Home</a>
       <a href="#about" class=" py-2 hover:bg-gray-600"><i class="fa-regular fa-address-card"></i> About</a>
       <a href="#projects" class=" py-2 hover:bg-gray-600"><i class="fa-solid fa-list-check"></i> Projects</a>
       <a href="#contact" class=" py-2 hover:bg-gray-600"><i class="fa-sharp fa-solid fa-file-signature"></i> Contact</a>
@@ -40,48 +42,176 @@
   </nav>
 
   <!-- Hero Section -->
-  <section id="home" class="mt-16 h-screen w-full bg-cover bg-center text-white flex items-center justify-center" style="background-image: url('assets/images/web-background.jpg');">
+  <section id="home" class="mt-16 h-screen w-full bg-cover bg-center text-white flex items-center justify-center"
+    style="background-image: url('assets/images/web-background.jpg');">
     <div class="text-center">
       <h1 class="text-4xl md:text-3xl lg:text-5xl font-bold mt-36">Welcome to My Portfolio</h1>
       <p class="text-lg md:text-xl lg:text-2xl pt-24">I am a Front-End Web Developer</p>
-      <div class="mt-10 flex space-x-4 justify-center">
-        <a href="#projects" class="bg-transparent border-2 border-white text-white py-2 px-4 rounded shadow hover:bg-black">View Projects</a>
-        <a href="#contact" class="bg-transparent border-2 border-white text-white py-2 px-4 rounded hover:bg-white hover:text-blue-500">Contact Me</a>
+      <div class="mt-10 flex space-x- justify-center">
+        <div class="">
+          <a href="#projects"
+            class="bg-transparent border-2 border-white text-white py-2 px-4 rounded shadow hover:bg-black">View
+            Projects</a>
+          <a href="#contact"
+            class="bg-transparent border-2 border-white text-white py-2 px-4 rounded hover:bg-white hover:text-blue-500">Contact
+            Me</a>
+        </div>
+
       </div>
     </div>
   </section>
 
+  <!-- Services Section -->
+  <section id="services" class="py-20 w-full bg-blue-300 place-items-center">
+    <h2 class="text-3xl font-bold text-center">My Services</h2>
+    <div class="flex flex-wrap md:flex-row-reverse justify-center mt-8">
+
+      <!-- Service Card -->
+      <div class="m-4 p-4 bg-white shadow-lg rounded-xl max-w-sm">
+        <i class="fa-solid fa-database fa-4x text-blue-700"></i>
+        <h3 class="text-xl font-semibold mt-8">IT Support</h3>
+        <p class="text-gray-600">I am skilled in troubleshooting and resolving IT issues, as well as providing guidance
+          on best practices for IT management.</p>
+      </div>
+
+      <!-- Service Card -->
+      <div class="m-4 p-4 bg-white shadow-lg rounded-xl max-w-sm">
+        <i class="fa-solid fa-code fa-4x text-blue-700"></i>
+        <h3 class="text-xl font-semibold mt-8">Web Development</h3>
+        <p class="text-gray-600">I am proficient in creating dynamic and responsive web applications using HTML,
+          CSS,Tailwind CSS, and
+          JavaScript. I am also familiar with libraries like React.js</p>
+      </div>
+
+      <!-- Service Card -->
+      <div class="m-4 p-4 bg-white shadow-lg rounded-xl max-w-sm">
+        <i class="fa-regular fa-chart-bar fa-4x text-blue-700"></i>
+        <h3 class="text-xl font-semibold mt-8">Front-End Development</h3>
+        <p class="text-gray-600">I specialize in creating visually appealing, user-friendly websites using HTML, CSS,
+          and
+          JavaScript.</p>
+      </div>
+
+      <!-- Service Card -->
+      <div class="m-4 p-4 bg-white shadow-lg rounded-xl max-w-sm">
+        <i class="fa-solid fa-desktop fa-4x text-blue-700"></i>
+        <h3 class="text-xl font-semibold mt-8">Responsive Design</h3>
+        <p class="text-gray-600">I am proficient in creating responsive web layouts that work well on various devices
+          and screen sizes.</p>
+      </div>
+
+
+
+
+
+
+  </section>
+
+
   <!-- About Section -->
-  <section id="about" class="py-20 bg-white text-center">
+  <section id="about" class="py-20 bg-blue-200 text-center">
     <h2 class="text-3xl font-bold">About Me</h2>
-    <p class="mt-4 px-4 max-w-xl mx-auto text-gray-700">
-      I am a passionate web developer with experience in creating dynamic and responsive web applications...
-    </p>
-    <button onclick="downloadCV()">Download CV</button>
+    <p class="m-4 px-4 max-w-xl mx-auto text-BLACK">
+      I am a passionate frontend developer with a solid foundation in HTML, CSS, Bootstrap, Tailwind CSS, and a growing
+      knowledge of JavaScript and React JS. I focus on creating responsive, user-centered web applications that are
+      visually engaging and efficient. </p>
+    <P class="m-4 px-4 max-w-xl mx-auto text-BLACK">
+      With over five years in IT support, I bring a strong problem-solving mindset and a deep understanding of user
+      needs to my development work. My experience in troubleshooting and customer service has enhanced my ability to
+      build intuitive, accessible web solutions. I’m committed to continuous learning to stay updated with industry
+      advancements and am excited to bring my skills to new, impactful projects.
+    </P>
+    <button class="bg-transparent border-2 border-blue-700 text-black py-1 px-2 rounded-xl hover:bg-blue-600 "
+      onclick="downloadCV()">Download CV</button>
   </section>
 
   <!-- Projects Section -->
-  <section id="projects" class="py-20 bg-gray-100">
+  <section id="projects" class="py-20 w-full bg-blue-300 place-items-center">
     <h2 class="text-3xl font-bold text-center">My Projects</h2>
-    <div class="flex flex-col justify-center mt-8">
+    <div class="flex-row md:flex justify-center mt-8">
       <!-- Project Card -->
-      <div class="m-4 p-4 bg-white shadow-lg rounded-lg max-w-sm">
-        <div class="flex justify-between">
-            <a href="https://phkfund.vercel.app/"> <img src="assets/images/phkfund mobile.png" alt="phkfund" class=" object-cover rounded-t-lg"></a>
-            <a href="https://phkfund.vercel.app/"> <img src="assets/images/phkfund desktop.png" alt="phkfund" class=" object-cover rounded-t-lg"></a>
-          </div>
 
-        <a href="https://phkfund.vercel.app/" class="text-xl font-semibold mt-2 text-center">phkfund</a>
-        <p class="text-gray-600 mt-2">A crowdfunding platform for connecting creators with supporters. Features include secure payments, project updates, and community support.</p>
-        <a href="https://phkfund.vercel.app/" class="text-blue-500 mt-2 block">View Project</a>
+      <div class="m-4 p-4 bg-white shadow-lg rounded-xl max-w-sm">
+        <div class="flex justify-between ">
+          <div>
+            <a href="https://phestursklein.github.io/News-Homepage-Project/"> <img src="assets/images/phknews-mobile.png"
+              alt="phknews" class=" object-cover rounded-t-lg"></a>
+          </div>
+          <div>
+            <a href="https://phestursklein.github.io/News-Homepage-Project/"> <img src="assets/images/phknews-desktop.png"
+              alt="phknews" class=" object-cover rounded-t-lg"></a>
+          </div>
+          
+        </div>
+
+        <a href="https://phestursklein.github.io/News-Homepage-Project/"
+          class="text-xl font-semibold mt-72 text-center">phknews</a>
+        <p class="text-black mt-2">PHKNEWS is a digital platform delivering the latest
+          insights in technology, finance, and innovation.It keeps readers informed on industry shifts and emerging
+          trends with concise, engaging content.
+        </p>
+        <a href="https://phestursklein.github.io/News-Homepage-Project/" class="text-blue-500 mt-2 block">View
+          Project</a>
+      </div>
+
+      <div class="m-4 p-4 bg-white shadow-lg rounded-xl max-w-sm">
+        <div class="flex justify-between ">
+          <a href="https://phkfund.vercel.app/"> <img src="assets/images/phkfund-mobile.png" alt="phkfund"
+              class=" object-cover rounded-t-lg"></a>
+          <a href="https://phkfund.vercel.app/"> <img src="assets/images/phkfund-desktop.png" alt="phkfund"
+              class=" object-cover rounded-t-lg"></a>
+        </div>
+
+        <a href="https://phkfund.vercel.app/" class="text-xl font-semibold mt-72 text-center">phkfund</a>
+        <p class="text-black m-4">phkfund ia a crowdfunding platform for connecting creators with supporters.
+          Features include
+          secure payments, project updates, and community support.</p>
+        <a href="https://phkfund.vercel.app/"
+          class="bg-transparent border-2 border-white text-white py-2 px-4 rounded shadow hover:bg-black">View
+          Project</a>
+      </div>
+
+
+      <div class="m-4 p-4 bg-white shadow-lg rounded-xl max-w-sm">
+        <div class="flex justify-between ">
+          <a href="https://phestursklein.github.io/myportfolio/"> <img src="assets/images/portfolio-desktop.png"
+              alt="phkfund" class=" object-cover rounded-t-lg"></a>
+          <a href="https://phestursklein.github.io/myportfolio/"> <img src="assets/images/portfolio-mobile.png"
+              alt="phkfund" class=" object-cover rounded-t-lg"></a>
+        </div>
+
+        <a href="https://phestursklein.github.io/myportfolio/"
+          class="text-xl font-semibold mt-72 text-center">myportfolio</a>
+        <p class="text-black mt-2">A Personal Portfolio Website built to showcase my expertise in front-end
+          development and IT support. This site provides a professional layout to display my skills, work samples, and
+          ongoing projects, with a focus on responsive design, user-friendly navigation, and clean, structured code
+          using HTML, CSS, and other foundational web technologies</p>
+        <a href="https://phestursklein.github.io/myportfolio/" class="text-blue-500 mt-2 block">View Project</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="my-10 max-w-3xl mx-auto">
+    <h2 class="text-2xl text-center mb-6">More Pages</h2>
+    <div class="relative overflow-hidden rounded-lg">
+      <div id="carousel" class="w-full h-auto flex transition-transform duration-1000 ease-in-out">
+        <img src="./assets/images/ecommerce-prototype.png" alt="Page 1" class="w-full h-auto">
+        <img src="./assets/images/Intro-component.png" alt="Page 2" class="w-full h-auto">
+        <img src="./assets/images/QR-code.png" alt="Page 3" class="w-full h-auto">
+        <img src="./assets/images/ecommerce-prot2.png" alt="Page 1" class="w-full h-auto">
+        <img src="./assets/images/ecommerce-prot3.png" alt="Page 2" class="w-full h-auto">
+        <img src="./assets/images/ecommerce-prot4.png" alt="Page 3" class="w-full h-auto">
+        <img src="./assets/images/" alt="Page 3" class="w-full h-auto">
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-white text-center">
+  <section id="contact" class="py-20 bg-red-100 text-center">
     <h2 class="text-3xl font-bold">Get in Touch</h2>
-    <p class="mt-4">Feel free to reach out through social media or email!</p>
+    <p class="mt-4 text-gray-950 ">Feel free to reach out through social media or email!</p>
     <div class="flex justify-center mt-4 space-x-9 text-3xl">
       <a href="mailto:phezyklein@gmail.com" class="text-gray-700 hover:text-red-700"><i class="fas fa-envelope"></i></a>
       <a href="#" class="text-gray-700 hover:text-red-500"><i class="fab fa-instagram"></i></a>
@@ -98,4 +228,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
