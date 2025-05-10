@@ -14,8 +14,8 @@ function downloadCV() {
 
   if (confirmDownload) {
     const link = document.createElement("a");
-    link.href = "./credentials/CV ABAYOMI 2024.pdf"; // 
-    link.download = "CV ABAYOMI 2024.pdf"; 
+    link.href = "./credentials/CV ABAYOMI OGUNBAYO.pdf"; // 
+    link.download = "CV ABAYOMI OGUNBAYO.pdf"; 
     link.click();
   } else {
     alert("Download canceled.");
