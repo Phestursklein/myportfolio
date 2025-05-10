@@ -10,7 +10,7 @@ menuButton.addEventListener('click', () => {
 });
 
 function downloadCV() {
-  const confirmDownload = confirm("Do you want to download the file 'CV ABAYOMI 2024.pdf'?");
+  const confirmDownload = confirm("Do you want to download the file 'CV ABAYOMI OGUNBAYO.pdf'?");
 
   if (confirmDownload) {
     const link = document.createElement("a");
